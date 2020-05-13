@@ -13,4 +13,6 @@ public class Human{
 		this.strength = MAX_STRENGTH;
 		System.out.println("----ok----");
 	}
+	
+	public String getName(){ return name; }
 }
