@@ -3,3 +3,6 @@
 
 #bat
 *.bat
+
+#rejected file
+*.rej
