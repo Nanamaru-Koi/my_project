@@ -1,11 +1,20 @@
 package sub;
 
 public class Sub{
-  public Sub(){
-  	System.out.println("Subクラスのコンストラクタが呼び出されました。");
-  	System.out.println("Sub Class's Construct has been called");
-  }
-  public void test(){
-    System.out.println("test");
-  }
+	
+	private String name;
+	
+	public Sub(String name){
+		System.out.println("Subクラスのコンストラクタが呼び出されました。");
+		System.out.println("Sub Class's Construct has been called");
+		
+		this.name = name;	//nameをセット
+	}
+	public void test(){
+		System.out.println("test");
+	}
+	
+	public String getName(){
+		return name;
+	}
 }
