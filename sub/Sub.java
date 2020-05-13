@@ -17,4 +17,8 @@ public class Sub{
 	public String getName(){
 		return name;
 	}
+	
+	public void test2(){
+		System.out.println("test2");
+	}
 }
