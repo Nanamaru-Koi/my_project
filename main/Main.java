@@ -6,6 +6,8 @@ public class Main{
 		System.out.println("Hello World!");
 		Sub sub = new Sub("test");
 		sub.test();
+		sub.test2();
+		sub.test3();
 		System.out.println(sub.getName());
 	}
 }
