@@ -1,11 +1,9 @@
 package main;
 import sub.Sub;
+import sub.Human;
 
 public class Main{
 	public static void main(String[] args ){
-		System.out.println("Hello World!");
-		Sub sub = new Sub("test",26);
-		System.out.println(sub.getName());
-		System.out.println(sub.getAge());
+		Human human = new Human("中村", 23 );
 	}
 }

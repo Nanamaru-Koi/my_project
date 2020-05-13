@@ -1,7 +1,7 @@
 #java classfile
 *.class
 
-#bat
+#bat file 
 *.bat
 
 #rejected file
