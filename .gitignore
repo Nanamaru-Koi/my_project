@@ -1,0 +1,5 @@
+#java classfile
+*.class
+
+#bat
+*.bat
